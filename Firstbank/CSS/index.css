@@ -69,12 +69,17 @@ background-color: white;
     justify-content: center;
     gap: 8px;
 }
+.header-images p{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 13px;
+    color: grey;
+}
 .rounded-img{
     display: flex;
     align-items: center;
     justify-content: center;
     border: 3px solid rgb(206, 206, 206);
-    width: 5%;
     padding: 2px;
     border-radius: 100%;
 
@@ -84,4 +89,41 @@ background-color: white;
     width: 65px;
     border-radius: 100%;
    
+}
+/* Hero Section */
+.hero-section{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.20)), url(/Firstbank/IMAGES/[Downloader.la]-6485e042c1620.jpg);
+    width: 100%;
+    position: absolute;
+    height: 700px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+div.earn-in-dollars{
+    position: relative;
+    width: 40%;
+    height: 370px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 300px;
+    padding-bottom: 30px;
+}
+div.earn-in-dollars h2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 54px
+}
+div.earn-in-dollars button{
+    position: relative;
+    left: 100px;
+    background-color: #F0BD2D;
+    border: none;
+    color:#003B65;
+    font-size: 17px;
+    padding:14px 29px;
+    margin-bottom: 40px;
 }
