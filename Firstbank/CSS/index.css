@@ -1,9 +1,12 @@
 body {  
     margin: 0;
     padding: 0;
+    background-color: #ECEFF1;
+    
 }
 header{
 background-color: white;
+
 }
 .nav-1{ 
     background-color: #003B65;
@@ -63,6 +66,12 @@ background-color: white;
     font-size: 17px;
     position: relative;
     margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-btn:hover{
+    background-color: #003B65;
+    color:#F0BD2D;
 }
 .header-images{
     display: flex;
@@ -88,15 +97,18 @@ background-color: white;
     height: 65px;
     width: 65px;
     border-radius: 100%;
+    cursor: pointer;
    
 }
 /* Hero Section */
 .hero-section{
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.20)), url(/Firstbank/IMAGES/[Downloader.la]-6485e042c1620.jpg);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-image:  url(/Firstbank/IMAGES/[Downloader.la]-6485e042c1620.jpg);
     width: 100%;
-    position: absolute;
-    height: 700px;
-    object-fit: contain;
+    height: 750px;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
@@ -104,10 +116,10 @@ background-color: white;
 div.earn-in-dollars{
     position: relative;
     width: 40%;
-    height: 370px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    background: rgba(255, 255, 255, 0.5);
-    margin-top: 300px;
+    height: 400px;
+    
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 320px;
     padding-bottom: 30px;
 }
 div.earn-in-dollars h2{
@@ -126,4 +138,78 @@ div.earn-in-dollars button{
     font-size: 17px;
     padding:14px 29px;
     margin-bottom: 40px;
+    cursor: pointer;
+}
+div.internet-banking{
+    position: relative;
+    background: white;
+    text-align: center;
+    height: 204px;
+    padding: 20px;
+    margin-top: 510px;
+}
+div.internet-banking p{
+    color:#003B65;
+    font-size: 12px;
+    font-weight: 400;
+}
+.Personal-btn{
+    display: block;
+    font-size: 17px;
+    color: #003B65;
+    background: #F0BD2D;
+    padding: 12px 20px;
+    border: none;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+.budiness-btn{
+    background: #003B65;
+    border: none;
+    padding: 14px 69px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* Icons Section */
+.icons-section{
+    background: #003B65;
+    width: 100%;
+    height: 240px;
+}
+
+.moving-text{
+    display: flex;
+    padding: 70px;
+    color:#003B65;
+    font-size: 30px;
+   
+}
+.bank-services-section{
+    padding: 50px;
+}
+.services-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.services{
+    background-image: url(/Firstbank/IMAGES/fbn-personal-100.jpeg);
+    width: 350px;
+    height: 310px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.services-container h4{ 
+    text-align: left;
+    width: 274px;
+    margin-top: -5px;
+    font-size: 21px;
+    color:#003B65;
+    padding: 38px;
+    background-color: white;
 }
