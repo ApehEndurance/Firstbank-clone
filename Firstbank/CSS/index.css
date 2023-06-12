@@ -188,6 +188,19 @@ div.internet-banking p{
 .bank-services-section{
     padding: 50px;
 }
+.bank-services-section h3{
+    padding-left: 30px;
+    margin-bottom: 0;
+    font-size: 40px;
+    color:#003B65
+}
+.bank-services-section p{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 19px;
+    color: grey;
+
+}
 .services-container{
     display: flex;
     justify-content: space-evenly;
