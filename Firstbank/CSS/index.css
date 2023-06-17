@@ -129,7 +129,7 @@ div.earn-in-dollars h2{
     color: white;
     font-size: 54px
 }
-div.earn-in-dollars button{
+.learn-more_btn{
     position: relative;
     left: 100px;
     background-color: #F0BD2D;
@@ -225,4 +225,106 @@ div.internet-banking p{
     color:#003B65;
     padding: 38px;
     background-color: white;
+}
+/* Video Section */
+.video-section{
+    
+} 
+.video-section .container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.video-text-container{
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    padding: 60px;
+
+} 
+.video-text-container h2{
+    color:#003B65;
+    font-size: 46px;
+} 
+
+.video-text-container p{
+    color: grey;
+    font-size: 20px;
+}
+.video-text-container button{
+    background-color: #F0BD2D;
+    border: none;
+    color:#003B65;
+    font-size: 17px;
+    padding:14px 29px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.video{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 70px;
+    top: 50px;
+    background-image: url(/Firstbank/IMAGES/Firstmonie-100KA-Happy.jpeg);
+    width: 450px;
+    height: 330px;
+    object-fit: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.fa-sharp{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 33px;
+    border-radius: 100%;
+}
+
+/* Sustianability */
+.sustainability-flexBox{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sustainability-backgroundImg{
+    background-image: url(/Firstbank/IMAGES/fbn-personalbanking-56.jpeg);
+    width: 400px;
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.sustainability-text_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 420px;
+    background-color: white;
+}
+.sustainability-text_container h3{
+    color: #003B65;
+    font-size: 22px;
+}
+.sustainability-text_container p{
+    color: grey;
+}
+.img-text-container{
+    display: flex;
+}
+.sustainability-backgroundImg h4{
+    color:#003B65;
+    font-size: 23px;
+    position: relative;
+    background-color: white;
+    padding: 18px 20px;
+    top: 300px;
 }
