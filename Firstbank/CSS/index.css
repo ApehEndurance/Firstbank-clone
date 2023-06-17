@@ -237,7 +237,7 @@ div.internet-banking p{
 }
 .video-text-container{
     display: inline-block;
-    width: 450px;
+    width: 540px;
     height: 300px;
     background-color: white;
     padding: 60px;
@@ -287,14 +287,32 @@ div.internet-banking p{
 }
 
 /* Sustianability */
+.sustainabilit-section{
+    margin-top: 100px;
+}
+.sustainabilit-heading{
+    padding-left: 84px;
+    padding-bottom: 25px;
+}
+.sustainabilit-heading h2{
+    color:#003B65;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.sustainabilit-heading p{
+    color: grey;
+    font-size: 19px;
+    margin-top: 0;
+}
 .sustainability-flexBox{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    padding-bottom: 30px;
 }
 .sustainability-backgroundImg{
     background-image: url(/Firstbank/IMAGES/fbn-personalbanking-56.jpeg);
-    width: 400px;
+    width: 340px;
     height: 420px;
     background-position: center;
     background-size: cover;
@@ -306,13 +324,13 @@ div.internet-banking p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 360px;
+    width: 390px;
     height: 420px;
     background-color: white;
 }
 .sustainability-text_container h3{
     color: #003B65;
-    font-size: 22px;
+    font-size: 23px;
 }
 .sustainability-text_container p{
     color: grey;
@@ -322,9 +340,9 @@ div.internet-banking p{
 }
 .sustainability-backgroundImg h4{
     color:#003B65;
-    font-size: 23px;
+    font-size: 20px;
     position: relative;
     background-color: white;
-    padding: 18px 20px;
+    padding: 20px;
     top: 300px;
 }
