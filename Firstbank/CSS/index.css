@@ -21,11 +21,12 @@ background-color: white;
 }
 .nav-1 ul li a{ 
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
-    font-weight: 100px;
-    font-size: 10px;
+    font-weight: 400px;
+    font-size: 11px;
     text-align: center;
+    letter-spacing: 2px;
 
 }
 .nav-2{ 
@@ -180,18 +181,18 @@ div.internet-banking p{
 
 .moving-text{
     display: flex;
-    padding: 70px;
+    padding: 40px 130px;
     color:#003B65;
     font-size: 30px;
    
 }
 .bank-services-section{
-    padding: 50px;
+    padding: 10px 50px;
 }
 .bank-services-section h3{
     padding-left: 30px;
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 45px;
     color:#003B65
 }
 .bank-services-section p{
@@ -289,6 +290,7 @@ div.internet-banking p{
 /* Sustianability */
 .sustainabilit-section{
     margin-top: 100px;
+    padding: 10px;
 }
 .sustainabilit-heading{
     padding-left: 84px;
@@ -307,8 +309,8 @@ div.internet-banking p{
 .sustainability-flexBox{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    padding-bottom: 30px;
+    gap: 40px;
+    padding-bottom: 50px;
 }
 .sustainability-backgroundImg{
     background-image: url(/Firstbank/IMAGES/fbn-personalbanking-56.jpeg);
@@ -345,4 +347,50 @@ div.internet-banking p{
     background-color: white;
     padding: 20px;
     top: 300px;
+}
+/* Blog */
+.blog-pages ul{
+    display: flex;
+    gap: 35px;
+    position: relative;
+    justify-content: center;
+    top: 90px;
+    padding-bottom: 30px;
+    
+}
+.blog-pages ul li{
+    list-style: none;
+}
+.blog-pages ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #5F707D;
+}
+/* Footer */
+footer{
+    background-image: url(/Firstbank/IMAGES/Footer.svg);
+    margin-top: 170px;
+}
+
+.footer-row{
+    display: flex;
+    gap: 100px;
+    padding: 90px;
+}
+.footer-col h2{
+    color: #FFFFFF;;
+    font-size: 13px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.footer-col li{
+    
+    padding-bottom: 20px;
+    list-style: none;
+}
+.footer-col li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #ABBECC;
+    
 }
