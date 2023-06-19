@@ -371,11 +371,33 @@ footer{
     background-image: url(/Firstbank/IMAGES/Footer.svg);
     margin-top: 170px;
 }
-
+.logo-social-icon{
+    display: flex;
+    position: relative;
+    top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 134px 0 134px;
+}
+footer .fa-brands{
+    background-color: #002F51;
+    padding: 17px;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+}
+.footer-line{
+    border: 1px solid #F0BD2D;
+    position: relative;
+    width: 80%;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
 .footer-row{
     display: flex;
     gap: 100px;
     padding: 90px;
+    margin-top: 0;
 }
 .footer-col h2{
     color: #FFFFFF;;
@@ -393,4 +415,19 @@ footer{
     text-decoration: none;
     color: #ABBECC;
     
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    font-size: 13px;
+    color: #9FB1C2;
+    font-weight: lighter;
+    position: relative;
+    bottom: 100px;
+}
+.copyright a{
+    color: #9FB1C2;
+    text-decoration: none;
 }
