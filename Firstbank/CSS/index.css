@@ -429,7 +429,7 @@ footer .fa-brands{
 }
 .footer-row{
     display: flex;
-    gap: 100px;
+    gap: 120px;
     padding: 90px;
     margin-top: 0;
 }
