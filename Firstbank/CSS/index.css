@@ -55,9 +55,11 @@ background-color: white;
     font-size: 19px;
     font-weight: 500;
 }
-.fa-solid{ 
+.nav-2 .fa-solid{ 
+    background: none;
     font-size: 20px;
     padding-right: 8px;
+    color: #013b65;
 }
 .nav-btn{
     background: #F0BD2D;
@@ -118,10 +120,9 @@ div.earn-in-dollars{
     position: relative;
     width: 40%;
     height: 400px;
-    
     background: rgba(0, 0, 0, 0.3);
-    margin-top: 320px;
-    padding-bottom: 30px;
+    top: 292px;
+    padding-bottom: 60px;
 }
 div.earn-in-dollars h2{
     padding-top: 30px;
@@ -145,9 +146,9 @@ div.internet-banking{
     position: relative;
     background: white;
     text-align: center;
-    height: 204px;
-    padding: 20px;
-    margin-top: 510px;
+    height: 210px;
+    padding: 24px;
+    top: 492px;
 }
 div.internet-banking p{
     color:#003B65;
@@ -174,11 +175,31 @@ div.internet-banking p{
 }
 /* Icons Section */
 .icons-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
     background: #003B65;
     width: 100%;
-    height: 240px;
+    height: 280px;
+    margin-top: 1px;
+}
+.icons .fa-sharp, .fa-solid, .fa-regular{
+    background-color: #002F51;
+    padding: 35px;
+    border-radius: 100%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+
+}
+.icons h5{
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
 }
 
+/* Moving Text */
 .moving-text{
     display: flex;
     padding: 40px 130px;
@@ -348,6 +369,12 @@ div.internet-banking p{
     padding: 20px;
     top: 300px;
 }
+.sustainability-backgroundImg .fa-solid{
+    font-size: 24px;
+    background: none;
+    padding: 0;
+    border: none;
+}
 /* Blog */
 .blog-pages ul{
     display: flex;
@@ -370,6 +397,7 @@ div.internet-banking p{
 footer{
     background-image: url(/Firstbank/IMAGES/Footer.svg);
     margin-top: 170px;
+    height: 640px;
 }
 .logo-social-icon{
     display: flex;
@@ -377,7 +405,13 @@ footer{
     top: 60px;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 134px 0 134px;
+    padding: 18px 100px 0 90px;
+}
+footer button{
+    padding: 10px 39px 10px 10px;
+    color: #013b65;
+    font-size: 14px;
+    font-weight: 100;
 }
 footer .fa-brands{
     background-color: #002F51;
@@ -389,8 +423,8 @@ footer .fa-brands{
 .footer-line{
     border: 1px solid #F0BD2D;
     position: relative;
-    width: 80%;
-    margin-top: 70px;
+    width: 86%;
+    margin-top: 30px;
     margin-bottom: 0;
 }
 .footer-row{
@@ -406,7 +440,6 @@ footer .fa-brands{
     text-transform: uppercase;
 }
 .footer-col li{
-    
     padding-bottom: 20px;
     list-style: none;
 }
